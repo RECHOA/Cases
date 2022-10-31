@@ -9,7 +9,7 @@ template<>
 InputParameters validParams<MooseErrorSubdomainID>()
 {
   InputParameters params = validParams<AuxKernel>();
-  params.addClassDescription("to compute the fast neutron_flux");
+  params.addClassDescription("test block id");
 
   return params;
 }
